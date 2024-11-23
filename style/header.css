@@ -1,0 +1,10 @@
+.title-wrapper {
+    background-color: var(--purple);
+}
+.title {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}

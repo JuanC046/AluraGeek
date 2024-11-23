@@ -1,25 +1,14 @@
-/* Basic CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("reset.css");
+@import url("header.css");
+@import url("products.css");
+
+
+/* Global Styles */
+:root {
+    --purple: #5300C8;
+    --blue: #03318C;
+    --white: #f7f5f5;
+    --black: #0a0a0a;
 }
 
-html, body {
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-ul, ol {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}

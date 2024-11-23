@@ -1,0 +1,12 @@
+.productsSpace {
+    background-color: #f5aa;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+.products {
+    width: 60%;
+}
+.addProduct {
+    width: 35%;
+}

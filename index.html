@@ -7,12 +7,26 @@
     <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a AluraGeek</h1>
+    <header class="title-wrapper">
+        <h1 class="title"><img src="assets/hearts.svg" alt="hearts"></img>AluraGeek</h1>
     </header>
-    <main>
-        <section>
-            <h2>Productos Destacados</h2>
+    <main class="productsSpace">
+        <section class="products">
+            <h2>Mis productos</h2>
+            <ul class="products__list">
+            </ul>
+        </section>
+        <section class="addProduct">
+            <h2>Agregar producto</h2>
+            <form class="addProduct-form" action="submit">
+                <input type="text" id="name" name="name" placeholder="Nombre del producto" required>
+                <input type="number" id="price" name="price" placeholder="Precio del producto" required>
+                <input type="text" id="image" name="image" placeholder="URL de la imagen" required>
+                <div class="form-actions">
+                    <button type="submit">Agregar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
             
         </section>
     </main>
