@@ -39,7 +39,7 @@
     width: 80%;
     justify-content: space-between;
 }
-.form-actions button {
+.form-actions input {
     width: 40%;
     padding: 8px 16px;
     border: none;
@@ -47,11 +47,11 @@
     font-size: 1rem;
     cursor: pointer;
 }
-.form-actions button[type="submit"] {
+.form-actions input[type="submit"] {
     background-color: var(--blue);
     color: var(--white);
 }
-.form-actions button[type="reset"] {
+.form-actions input[type="reset"] {
     background-color: var(--white);
     color: var(--blue);
     border: 2px solid var(--blue);
@@ -147,13 +147,10 @@
     .form-actions {
         width: 100%;
     }
-    .form-actions button {
+    .form-actions input {
         width: 48%;
     }
     .products__list {
-        width: 100%;
-    }
-    .product {
         width: 100%;
     }
 }

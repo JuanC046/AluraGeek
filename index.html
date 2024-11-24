@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek</title>
     <link rel="stylesheet" href="style/main.css">
+    <script src="./js/main.js" type="module" defer></script>
 </head>
 <body>
     <header class="title-wrapper">
@@ -14,19 +15,17 @@
         <section class="products">
             <h2>Listado de productos</h2>
             <ul class="products__list">
-                
-               <h3>No hay productos agregados</h3>
             </ul>
         </section>
         <section class="addProduct">
             <h2>Agregar producto</h2>
-            <form class="addProduct-form" action="submit">
+            <form class="addProduct-form" type="submit">
                 <input type="text" id="name" name="name" placeholder="Nombre del producto" required>
                 <input type="number" id="price" name="price" placeholder="Precio del producto" required>
                 <input type="text" id="image" name="image" placeholder="URL de la imagen" required>
                 <div class="form-actions">
-                    <button type="submit">Agregar</button>
-                    <button type="reset">Limpiar</button>
+                    <input type="submit">
+                    <input type="reset">
                 </div>
             </form>
             
